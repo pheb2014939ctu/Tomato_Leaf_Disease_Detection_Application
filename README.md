@@ -13,7 +13,7 @@
 <img src="img/image.png" width="300" height="600">
 
 - Detection Page
-<img src="/Screen Shot 2024-03-19 at 23.16.51.png" width="300" height="600">
+<img src="img/Screen Shot 2024-03-19 at 23.16.51.png" width="300" height="600">
 
 
 
