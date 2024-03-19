@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Plant Care</string>
+    <string name="Dashboard">Home</string>
+    <string name="welcomeText">Good Morning\n Welcome To My Culture</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="menu">Discover</string>
+    <string name="note">Note</string>
+
+    <string name="you">You</string>
+    <string name="detected">DETECTED</string>
+    <string name="click_on_result_to_know_more">CLick On result To know more</string>
+
+    <!--    //////////////////////////////////////////////-->
+    <!--    <string name="app_name">Agro-App</string>-->
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="_102_street_2714_don">102 Street 2714 \n Don</string>
+    <string name="Anand_Singh_techie"><a href="https://github.com/Anand-Singh-techie"></a>Anand_Singh_techie</string>
+    <string name="Saurabh_Kumar"><a href="https_github_com_indskgit"></a>Saurabh Kumar</string>
+    <string name="saurabh_kumar_developer_role"> TTBP -- Developer</string>
+    <string name="about_us">About Us</string>
+
+
+    //discover
+
+    <string name="date"><![CDATA[<b>A thin wrapper around a millisecond value that allows JDBC to identify this as an SQL DATE value.</b><br>A milliseconds value represents the number of milliseconds that have passed since January 1, 1970 00:00:00.000 GMT.<br>To conform with the definition of SQL DATE, the millisecond values wrapped by a java.sql.Date instance must be normalized by setting the hours, minutes, seconds, and milliseconds to zero in the particular time zone with which the instance is associated.]]></string>
+
+    <string name="rating"><![CDATA[A RatingBar is an extension of SeekBar and ProgressBar that shows a rating in stars. The user can touch/drag or use arrow keys to set the rating when using the default size RatingBar. The smaller RatingBar style ( R.attr.ratingBarStyleSmall) and the larger indicator-only style (R.attr.ratingBarStyleIndicator) do not support user interaction and should only be used as indicators. When using a RatingBar that supports user interaction, placing widgets to the left or right of the RatingBar is discouraged.]]></string>
+
+    <string name="edit"><![CDATA[A TextView displays text to the user and optionally allows them to edit it. A TextView is a complete text editor; however, the basic class is configured to not allow editing.]]></string>
+
+    <string name="camera"><![CDATA[The Android framework includes support for various cameras and camera features available on devices, allowing you to capture pictures and videos in your applications. This document discusses a quick, simple approach to image and video capture and outlines an advanced approach for creating custom camera experiences for your users.]]></string>
+
+    <string name="recyclerview"><![CDATA[RecyclerView is the ViewGroup that contains the views corresponding to your data. It\'s a view itself so you add RecyclerView into your layout the way you would add any other UI element. Each individual element in the list is defined by a view holder object. RecyclerView is a ViewGroup added to the android studio as a successor of the GridView and ListView. It is an improvement on both of them and can be found in the latest v-7 support packages. It has been created to make possible construction of any lists with XML layouts as an item which can be customized vastly while improving on the efficiency of ListViews and GridViews.]]></string>
+    // new discover
+    <string name="late_blight"><![CDATA[<b>Disease name: </b>Late blight<br><b>Description: </b><br>A serious disease of tomatoes caused by the fungus Phytophthora infestans. The disease causes brown or black spots on leaves, stems, and fruits, leading to leaf drop, reduced yield, and poor fruit quality.<br><b>Cause: </b><br>The fungus Phytophthora infestans thrives in moist environments with temperatures of 18-24 degrees Celsius. The disease is spread through rain, wind, soil, and agricultural implements.<br><b>Symptoms: </b><br>Leaves become yellow, develop brown or black spots, and drop. Fruits become rotten and deformed.<br><b>Control: </b><br>Grow resistant tomato varieties, rotate crops, keep the fields clean, and use pesticides as needed.]]></string>
+
+    <string name="powdery_mildew"><![CDATA[<b>Disease name: </b>Tomato Powdery Mildew<br><b>Cause: </b><br>Powdery mildew of tomato, caused by the fungus Oidium lycopersicum, is a relatively new disease in North America that has the potential to affect both field and greenhouse tomato production. Symptoms include white superficial mycelium on leaves and stems, yellowing, desiccation, necrosis and defoliation.<br><b>Symptoms: </b><br>Leaves on infected tomato plants develop irregular, bright yellow blotches; severely affected leaves die but seldom drop. Spots of dead tissue, sometimes surrounded by a yellow halo, eventually appear in the blotches. Abundant white sporulation may be observed on upper or lower leaf surfaces.<br><b>Control: </b><br>Apply sulfur or copper-based fungicides to prevent infection of susceptible plants. For best results, apply early or at the first sign of disease. Spray all plant parts thoroughly and repeat at 7-10 day intervals up to the day of harvest.]]></string>
+
+    <string name="leaf_spot"><![CDATA[<b>Disease name: </b>Tomato Leaf Spot<br><b>Cause: </b><br>Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.<br><b>Symptoms: </b><br>The first symptoms appear as small, water-soaked, circular spots 1/16 to 1/8" in diameter on the undersides of older leaves. The centers of these spots then turn gray to tan and have a dark-brown margin. The spots are distinctively circular and are often quite numerous.<br><b>Control: </b><br>If caught early, the lower infected leaves can be removed and burned or destroyed. However, removing leaves above where fruit has formed will weaken the plant and expose fruit to sunscald. At the end of the season, collect all foliage from infected plants and dispose of or bury.
+]]></string>
+
+    <string name="yellow_leaf"><![CDATA[<b>Disease name: </b>Tomato Yellow Leaf Curl Virus<br><br><b>Cause: </b><br>Tomato leaf curl disease is caused by viruses in the Geminivirus family of plant viruses, and is spread by whiteflies. The virus causing this disease is tomato yellow leaf curl virus.<br><b>Symptoms: </b><br>The most obvious symptoms in tomato plants are small leaves that become yellow between the veins. The leaves also curl upwards and towards the middle of the leaf. In seedlings, the shoots become shortened and give the young plants a bushy appearance.<br><b>Control: </b><br>Once infected with the virus, there are no treatments against the infection. Control the whitefly population to avoid the infection with the virus. Insecticides of the family of the pyrethroids used as soil drenches or spray during the seedling stage can reduce the population of whiteflies.]]></string>
+
+    <string name="spider_mites"><![CDATA[<b>Disease name: </b>Tomato Spotted Spider Mites<br><br><b>Symptoms: </b><br>Spider mites feed by piercing leaf cell walls with their mouthparts, sucking out the cell\'s contents, and causing characteristic stippling damage (small spots). Heavily infested leaves are yellow or brown and may also appear burnt on the upper surface. Severe damage from mite feeding causes leaves to dry and fall off.<br><b>Control: </b><br>An integrated pest management approach is needed to control tomato red spider mite. This involves crop hygiene through culling of nightshade and other Solanaceae weed hosts from the crop area and surrounds, encouragement of natural enemies and, if required, miticides.]]></string>
+
+
+
+</resources>

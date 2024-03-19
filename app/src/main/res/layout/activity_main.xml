@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/dashboard_bg"
+            app:titleTextColor="@color/white">
+
+
+            <TextView
+                android:id="@+id/moto"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginStart="0dp"
+                android:text="Tomato Leaf Disease Identification"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="26sp">
+
+            </TextView>
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/introduction_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <TextView
+            android:id="@+id/introduction_info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="12dp"
+            android:padding="7dp"
+            android:text="Capture a photo of an affected plant by tapping the camera button.\nPlease wait until for the model to identify the disease and give you a solution for the disease."
+            android:textColor="@color/fade_gray"
+
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/introduction_info"
+            app:layout_constraintEnd_toEndOf="@+id/introduction_info"
+            app:layout_constraintTop_toTopOf="@+id/introduction_info"
+            app:layout_constraintVertical_bias="0.629" />
+        <!--        <ImageView-->
+        <!--            android:id="@+id/introduction_info"-->
+        <!--            android:layout_width="351dp"-->
+        <!--            android:layout_height="151dp"-->
+        <!--            android:layout_marginStart="0dp"-->
+        <!--            android:background="@drawable/introduction_view"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/recyclerView"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.513"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textView13"-->
+        <!--            app:layout_constraintVertical_bias="0.194" />-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="243dp"
+        android:text="Instructions"
+        android:textColor="@color/greenMain"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="380dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="20dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/plantDisease"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/plantDisease"
+        android:layout_width="157dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="8dp"
+
+        android:backgroundTint="@color/greenMain"
+        android:text="Get started"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_app_bar_bg"
+        android:elevation="4dp"
+        app:itemIconTint="@drawable/bottom_icon_selector"
+        app:itemTextColor="@drawable/bottom_icon_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="4dp"
+        android:text="Suggestions"
+        android:textColor="@color/greenMain"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
