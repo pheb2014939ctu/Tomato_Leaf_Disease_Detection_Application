@@ -3,7 +3,7 @@
 
 
 - Login Page
-<p><img src="img/Screen Shot 2024-03-19 at 23.19.57.png" width="300" height="600">    ></p>
+<p><img src="img/Screen Shot 2024-03-19 at 23.19.57.png" width="300" height="600"></p>
 
 
 - Main Page
