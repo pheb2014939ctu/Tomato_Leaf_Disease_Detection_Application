@@ -18,6 +18,7 @@
 
 
 -Discover page 
+
 <img src="img/image_copy.png" width="600" height="600">
 
 
@@ -36,7 +37,4 @@ TODO:
 2. Add detection for Weeds
 3. Results more accurate
 
-## Collaborators:
 
-- https://github.com/Anand-Singh-techie
-- https://github.com/indskgit
